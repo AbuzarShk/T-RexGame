@@ -1,3 +1,5 @@
+###Welcome to T-Rex Game###
+
 from PIL import ImageGrab, ImageOps 
 import pyautogui 
 import time 
@@ -13,8 +15,7 @@ def restartGame():
 
 def press_space(): 
     pyautogui.keyUp('up') 
-   # pyautogui.keyDown('space') 
-    #time.sleep(0.05) 
+   
     print("jump")  
     time.sleep(0.10) 
     pyautogui.keyUp('space') 
